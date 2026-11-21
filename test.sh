@@ -11,7 +11,7 @@ fi
 
 echo "PASS: HTML file exists."
 
-grep -q '<h1>Incorrect Heading</h1>' index.html
+grep -q '<h1>Automated Testing in CI/CD</h1>' index.html
 echo "PASS: Application heading verified."
 
 grep -q 'Application is ready for deployment.' index.html
